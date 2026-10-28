@@ -1,0 +1,26 @@
+Créditos das imagens — Íris Oftalmologia
+
+Fotos gratuitas — Designed by Magnific (https://www.magnific.com), licença Free (atribuição obrigatória, já incluída no rodapé):
+- hero-oculos.webp           https://www.magnific.com/free-photo/optimistic-girl-with-curly-hairstyle-laughing-yellow-backdrop-cool-woman-pink-sunglasses-poses-bright-background_23929094.htm
+- exame-lampada-fenda.webp   https://www.magnific.com/free-photo/eye-doctor-with-female-patient-examination-modern-clinic-ophthalmologist-is-using-special-medical-equipment-eye-health_27155477.htm
+- catarata.webp              https://www.magnific.com/free-photo/woman-checking-some-new-glasses_17827431.htm
+- glaucoma-equipamento.webp  https://www.magnific.com/free-photo/devices-ready-patient-consultation_21540435.htm
+- refrativa-olho.webp        https://www.magnific.com/free-photo/vertical-closeup-shot-elderly-human-s-light-blue-eye_12328155.htm
+- retina-olho.webp           https://www.magnific.com/free-photo/beautiful-macro-closeup-shot-female-human-s-deep-eyes_7902265.htm
+- oftalmopediatria.webp      https://www.magnific.com/free-photo/child-eye-test-eye-exam-little-girl-having-eye-check-up-with-phoropter-doctor-performs-eye-test-child_11161501.htm
+- lentes-contato.webp        https://www.magnific.com/free-photo/man-applying-his-contact-lens_12196819.htm
+- medica-ana.webp            https://www.magnific.com/free-photo/studio-image-confident-attractive-middle-aged-female-doctor-with-short-dyed-hairstyle-posing-isolated-wearing-white-coat-stethoscope_11102045.htm
+- medico-bruno.webp          https://www.magnific.com/free-photo/portrait-male-physician-looking-camera-isolated-white-background_26965475.htm
+- medica-luisa.webp          https://www.magnific.com/free-photo/doctor-with-stethoscope-hand-her-pocket-closeup-female-smiling-while-standing-straight-white-background_27158904.htm
+- medico-pedro.webp          https://www.magnific.com/free-photo/portrait-professional-medical-worker-posing-picture-with-arms-folded_5699273.htm
+
+Obs.: versões de pré-visualização (740 px). Para uso real em produção, baixe os arquivos originais pela sua conta Magnific (gratuita) nas páginas acima.
+
+Redesign v3 (banco local F:\WebsitesGenerator\imagens\oftamologista, fotos Magnific, licença gratuita):
+- v3-hero-*.webp: woman-undergoing-eye-examination-with-professional
+- v3-foroptero-*.webp: optometry-exam-equipment-in-an-office
+- v3-glaucoma-*.webp: woman-receiving-an-eye-exam-with-medical-equipment
+- v3-refrativa-*.webp: ophthalmology-equipment-in-hospital-with-doctor
+- v3-pediatria-*.webp: child-eye-exam-by-healthcare-professional
+- v3-tecnologia-*.webp: ophthalmology-machines-used-for-eye-exam
+- v3-consulta-*.webp: doctor-explaining-eye-anatomy-to-young-adult-patient
