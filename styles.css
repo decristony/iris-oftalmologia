@@ -81,11 +81,11 @@ section{padding:120px var(--pad)}
 
 /* ESPECIALIDADES — cartões retos com foto inteira e lente no cursor */
 .especialidades{background:var(--sand)}
-.esp-head{display:grid;grid-template-columns:7fr 5fr;gap:24px 64px;align-items:end;margin-bottom:56px}
+.esp-head{display:grid;grid-template-columns:7fr 5fr;gap:24px 64px;align-items:end;margin-bottom:44px}
 .esp-head .kicker{grid-column:1/-1;margin:0}
 .esp-hint{margin:0;color:var(--muted);max-width:34ch;justify-self:end}
 .esp-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
-.esp{position:relative;aspect-ratio:4/5;border-radius:var(--r);overflow:hidden;color:#fff;background:var(--teal);isolation:isolate;--mx:50%;--my:50%}
+.esp{position:relative;aspect-ratio:4/3;border-radius:var(--r);overflow:hidden;color:#fff;background:var(--teal);isolation:isolate;--mx:50%;--my:50%}
 .esp > img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform 1s var(--ease),filter .5s var(--ease)}
 .esp::after{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(0deg,rgba(7,30,34,.9) 0%,rgba(7,30,34,.35) 42%,rgba(7,30,34,0) 70%);pointer-events:none}
 .lens{position:absolute;inset:0;z-index:1;pointer-events:none;backdrop-filter:blur(7px) saturate(.8);-webkit-backdrop-filter:blur(7px) saturate(.8);-webkit-mask:radial-gradient(circle 110px at var(--mx) var(--my),transparent 96%,#000 100%);mask:radial-gradient(circle 110px at var(--mx) var(--my),transparent 96%,#000 100%);opacity:0;transition:opacity .4s var(--ease)}
@@ -195,6 +195,7 @@ section{padding:120px var(--pad)}
   .esp-head{grid-template-columns:1fr}
   .esp-hint{justify-self:start}
   .esp-grid{grid-template-columns:1fr 1fr;gap:12px}
+  .esp{aspect-ratio:1/1}
   .esp-txt{padding:16px}
   .esp p{font-size:.86rem}
   .fixo{height:auto;min-height:0;clip-path:none}
@@ -222,7 +223,7 @@ section{padding:120px var(--pad)}
   .hero h1{font-size:3.1rem}
   .hero-lead{font-size:1rem;margin:18px 0 24px}
   .esp-grid{grid-template-columns:1fr}
-  .esp{aspect-ratio:5/4}
+  .esp{aspect-ratio:3/2}
   .foot{flex-direction:column;align-items:flex-start;padding-bottom:110px}
   .wa-float{right:16px;bottom:16px;padding:0;width:58px;justify-content:center}
   .wa-float span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
