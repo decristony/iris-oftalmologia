@@ -233,3 +233,27 @@ section{padding:120px var(--pad)}
   .hero-media img{filter:none;transform:none}
   .hero-content > *,.hero-facts li,.reveal{opacity:1;transform:none}
 }
+/* fundo fixo: pouco texto numa seção curta = texto centralizado e com respiro */
+.fixo{justify-content:center}
+.fixo-text{align-items:center;text-align:center;max-width:860px;margin:0 auto;padding:clamp(88px,12vh,128px) var(--pad)}
+.fixo-text p:not(.kicker){margin-left:auto;margin-right:auto}
+.fixo-text .kicker{margin-bottom:22px}
+.fixo-cta{justify-content:center;margin-top:40px}
+.fixo-media::after{background:radial-gradient(ellipse 70% 90% at 50% 50%,rgba(7,30,34,.82) 0%,rgba(7,30,34,.62) 55%,rgba(7,30,34,.45) 100%)}
+@media (max-width:980px){
+  .fixo-text{padding:120px var(--pad) 88px}
+  .fixo-media::after{background:rgba(7,30,34,.72)}
+}
+.fixo-text h2{text-wrap:balance}
+/* exames: foto com margem lateral, sem encostar na borda */
+.tec-grid{padding:0 var(--pad);gap:clamp(32px,5vw,72px)}
+.tec-photo{border-radius:var(--r)}
+.tec-body{padding:48px 0 120px}
+@media (max-width:980px){
+  .tec-grid{gap:0}
+  .tec-photo{border-radius:var(--r)}
+  .tec-body{padding:36px 0 88px}
+}
+.tecnologia{padding-bottom:110px}
+.tec-body{padding:40px 0}
+@media (max-width:980px){ .tecnologia{padding-bottom:88px} .tec-body{padding:36px 0 0} }
