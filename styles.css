@@ -97,13 +97,13 @@ section{padding:120px var(--pad)}
 .esp p{margin:0;font-size:.97rem;opacity:.86;max-width:32ch}
 
 /* FUNDO FIXO — a foto fica parada e o site passa por cima */
-.fixo{position:relative;height:130vh;padding:0;clip-path:inset(0);color:#fff;background:var(--deep)}
+.fixo{position:relative;height:auto;min-height:clamp(420px,52vh,560px);display:flex;align-items:center;padding:0;clip-path:inset(0);color:#fff;background:var(--deep)}
 .fixo-media{position:fixed;inset:0;z-index:0;pointer-events:none}
 .fixo-media img{width:100%;height:100vh;object-fit:cover;object-position:62% 50%}
 .fixo-media::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(7,30,34,.86) 0%,rgba(7,30,34,.55) 42%,rgba(7,30,34,.05) 72%)}
-.fixo-text{position:sticky;top:0;z-index:1;height:100vh;display:flex;flex-direction:column;justify-content:center;padding:0 var(--pad);max-width:min(720px,60vw)}
+.fixo-text{position:relative;z-index:1;display:flex;flex-direction:column;justify-content:center;padding:clamp(72px,10vh,112px) var(--pad);max-width:min(760px,62vw)}
 .fixo-text .kicker{color:var(--mint)}
-.fixo-text h2{font-size:clamp(2.8rem,6vw,6rem);line-height:.98}
+.fixo-text h2{font-size:clamp(2.6rem,4.8vw,4.8rem);line-height:1}
 .fixo-text h2 em{color:var(--mint)}
 .fixo-text p:not(.kicker){margin:26px 0 0;font-size:1.15rem;color:rgba(255,255,255,.85);max-width:42ch}
 
